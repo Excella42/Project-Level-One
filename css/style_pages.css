@@ -1,0 +1,535 @@
+html, body, div, p, img, a {
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			background-color: #3a3737;
+			width: 100%;
+			height: 1670px;
+			
+		} 
+		#logo {
+			position: absolute;
+			left: 4%;
+		}
+		header {
+			
+		}
+		#navArea {
+			position: absolute;
+			width: 75%;
+			height: 60px;
+			background-color: #000;
+			right: 4.6%;
+			text-align: right;
+			
+		}
+		nav {
+			display: inline-block;
+			margin-top: 20px;
+			
+			
+		}
+		nav a {
+			
+			text-decoration: none;
+			color: #33335B;
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 11pt;
+			padding: 15px;
+			
+			
+		}
+		a:hover {
+			color: #ffff00;
+		}
+		.active {
+			color: #ffff00;
+		}
+		#pic {
+			position: absolute;
+			top: 50px;
+			left: 4%;
+			border: 2px solid;
+			width: 91%;
+		}
+		main {
+			position: absolute;
+			left: 4%;
+			width: 91.3%;
+			height: 1100px;
+			top: 600px;
+			background-color: #181617;
+			border: 1px solid 
+		}
+		#nav2 {
+			position: absolute;
+			width: 100%;
+			height: 40px;
+			background-color: #000;
+			text-align: center;
+			padding-top: 15px;
+			
+		}
+		#nav2 a {
+			text-decoration: none;
+			color: #33335B;
+			font-family: Arial;
+			font-size: 11pt;
+			padding: 15px;
+			
+			
+		}
+		#nav2 a:hover {
+			color: #ffff00;
+		}
+		#search {
+
+		}
+		#search input[type="text"] {
+			position: absolute;
+			right: 20px;
+			top: 15px;
+			border: 0 none;
+			background: url(search-dark.png) no-repeat 10px 6px #444;
+			font: bold 12px Arial,Helvetica,Sans-serif;
+			color: #ffff00;
+			width: 150px;
+			padding: 6px 15px 6px 35px;
+			-webkit-border-radius: 20px;
+			-moz-border-radius: 20px;
+			border-radius: 20px;
+			text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+			-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+			-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+			box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+		}
+		#container {
+			position: absolute;
+			width: 95%;
+			height: 970px;
+			background-color: #d7d4d4;
+			top: 80px;
+			border: 1px solid;
+			border-radius: 20px;
+			left: 2.5%;
+		}
+		
+		/* About content */
+ 
+		h2 {
+			text-align: center;
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 20pt;
+			text-shadow: 2px 2px #808080;
+
+		}
+		#block1 {
+			position: absolute;
+			width: 95%;
+			height: 270px;
+			left: 2%;
+			
+		}
+		#pic2 {
+			position: absolute;
+			width: 40%;
+			right: 0%;
+		}
+		h4 {
+			font-family: Arial, Helvetica, Sans-serif;
+			color: #93AABB;
+			text-shadow: 2px 2px #000;
+			position: absolute;
+			left: 2%;
+		}
+		#block1 p {
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 11pt;
+			position: absolute;
+			width: 60%;
+			text-shadow: 0px 0px;
+			top: 30%;
+		}
+		#block2 {
+			position: absolute;
+			width: 95%;
+			height: 270px;
+			top: 38%;
+			left: 2%;
+			
+		}
+		#pic3 {
+			position: absolute;
+			width: 30%;
+			left: 0%;
+		}
+		#block2 h4 {
+			position: absolute;
+			right: -40%;
+		}
+		#block2 p {
+			font-size: 11pt;
+			position: absolute;
+			width: 60%;
+			text-shadow: 0px 0px;
+			top: 30%;
+			right: 2%;
+		}
+		#block3 {
+			position: absolute;
+			width: 95%;
+			height: 270px;
+			top: 68%;
+			left: 2%;
+		}
+		#pic4 {
+			position: absolute;
+			right: 0%;
+		}
+		#block3 p {
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 11pt;
+			position: absolute;
+			width: 60%;
+			text-shadow: 0px 0px;
+			top: 30%;
+			left: 2%;
+		}	
+		
+		/* end of About page content */
+ 
+		/* Gallery content*/
+		#pic5 {
+			position: absolute;
+			top: 7%;
+			left: 4%;
+			width: 91.4%;
+		}
+		#conatiner {
+		}
+		#conatiner2 {
+			position: absolute;
+			width: 95%;
+			height:95%;
+			background-color: #000;
+			left: 2.5%;
+			top: 2.5%;
+			border: 1px solid;
+			border-radius: 20px;
+			
+		}
+		.img {
+			float: left;
+			padding-left: 7px;
+		}	
+		/* end of Gallery page content */
+		
+
+		/* Application content*/
+		#pic6 {
+			position: absolute;
+			top: 9%;
+			left: 4.1%;
+			width: 91%;
+		}
+		#textline {
+			font-size: 15pt;
+			posittion: absolute;
+			text-shadow: 0px 0px;
+		}
+		#textline2 {
+			position: absolute;
+			top: 550px;
+			left: 40%;
+			font-size: 15pt;
+			text-shadow: 0px 0px;
+		}
+		#block4 {
+			position: absolute;
+			width: 23%;
+			height: 400px;
+			left: 1%;
+			
+		}	
+		#block5 {
+			position: absolute;
+			width: 23%;
+			height: 400px;
+			left: 26%;
+		
+		}
+		#block6 {
+			position: absolute;
+			width: 23%;
+			height: 400px;
+			left: 51%;
+			
+		}
+		#block7 {
+			position: absolute;
+			width: 23%;
+			height: 400px;
+			right: 1%;
+			
+		}
+		.event {
+			position: absolute;
+			top: 40px;
+			left: 1%;
+		}
+		.text_event {
+			text-align: center;
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 10pt;
+			color: #000;
+			bottom: 0px;
+			text-shadow: 0px 0px;
+			margin-top: 280px;
+			
+		}
+		.event_check {
+			position: absolute;
+			top: 365px;
+
+		}
+		#first {
+			position: absolute;
+			bottom: 90px;
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 10pt;
+			text-shadow: 0px 0px;
+			text-align: left;
+		}
+		#first_name {
+			position: absolute;
+			bottom: 70px;
+			left: 0%;
+		}
+		#last {
+			position: absolute;
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 10pt;
+			text-shadow: 0px 0px;
+			text-align: left;
+			bottom: 20px;
+				
+		}
+		#name {
+			position: absolute;
+			bottom: 180px;
+			left: 5%;
+		}
+		.text1 {
+			position: absolute;
+			bottom: 20px;
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 10pt;
+			text-shadow: 0px 0px;
+			text-align: left;
+		
+		}
+		#birth {
+			position: absolute;
+			bottom: 110px;
+			left: 5%;
+			margin-bottom: 5px;
+		}
+		#gender {
+			position: absolute;
+			bottom: 40px;
+			left: 5%;
+			margin-bottom: 5px;
+		}
+		#Email {
+			position: absolute;
+			bottom: 240px;
+			left: 25%;
+			margin-bottom: 5px;
+		}
+		#country {
+			position: absolute;
+			bottom: 175px;
+			left: 25%;
+			margin-bottom: 5px;
+		}
+		#zip {
+			position: absolute;
+			bottom: 111px;
+			left: 25%;
+			margin-bottom: 5px;
+		}
+		#city {
+			position: absolute;
+			bottom: 241px;
+			left: 50%;
+			margin-bottom: 5px;
+		}
+		.text2 {
+			position: absolute;
+			bottom: 50px;
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 10pt;
+			text-shadow: 0px 0px;
+			text-align: left;
+		}
+		#adress {
+			position: absolute;
+			bottom: 130px;
+			left: 50%;
+			margin-bottom: 5px;
+		}
+		.text3 {
+			display: inline;
+			bottom: 50px;
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 10pt;
+			text-shadow: 0px 0px;
+		}
+		#terms {
+			position: absolute;
+			bottom: 20px;
+			right: 20%;
+			margin-bottom: 5px;
+		}
+		#buton {
+			position: absolute;
+			bottom: 20px;
+			right: 10%;
+			margin-bottom: 5px;
+		}
+		#doc_terms {
+			position: absolute;
+			bottom: 10px;
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 10pt;
+			text-shadow: 0px 0px;
+			color: #0E5995;
+			right: 20%;
+		}
+			/* end of Application page content */
+			
+			/* Contact content*/
+			
+		#pic8 {
+			position: absolute;
+			width: 91.5%;
+			left: 4%;
+		}	
+		#block9 {
+			position: absolute;
+			width: 90%;
+			height: 300px;
+			left: 5%;
+			top: 5%;
+			
+		}
+		#pic9 {
+			position: absolute;
+			width: 30%;
+			top: 15px;
+		}
+		#block9 h2 {
+			position: absolute;
+			top: 40px;
+			left: 30%;
+			color: #5985A5;
+			text-shadow: 2px 2px #000;
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 30pt;
+			
+		}
+		#block10 {
+			position: absolute;
+			width: 90%;
+			height: 300px;
+			top: 250px;
+			right: 5%;
+		}
+		#pic10 {
+			position: absolute;
+			width: 40%;
+			right: 0%;
+			top: 40%;
+		}
+		#block10 h2 {
+			position: absolute;
+			left: 40%;
+			top: 10%;
+			color: #5985A5;
+			text-shadow: 2px 2px #000;
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 30pt;
+		}
+		#block11 {
+			position: absolute;
+			width: 90%;
+			height: 300px;
+			top: 500px;
+		}
+		#pic11 {
+			position: absolute;
+			width: 15%;
+			left: 10%;
+			top: 40%;
+			
+		}
+		#block11 h2 {
+			position: absolute;
+			left: 6%;
+			top: 0%;
+			color: #5985A5;
+			text-shadow: 2px 2px #000;
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 30pt;
+		}
+		#text4 {
+			position: absolute;
+			bottom: 200px;
+			right: 30%;
+			color: #5985A5;
+			text-shadow: 2px 2px #000;
+			font-family: Arial, Helvetica, Sans-serif;
+			font-size: 30pt;
+		}
+		#mail1 {
+			position: absolute;
+			bottom: 190px;
+			right: 200px;
+			font-family: Arial, Helvetica, Sans-serif;
+			color: #000;
+			font-size: 14pt;
+		}
+		#mail2 {
+			position: absolute;
+			bottom: 160px;
+			right: 200px;
+			font-family: Arial, Helvetica, Sans-serif;
+			color: #000;
+			font-size: 14pt;
+		}
+		#banner {
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+		}
+			/* end of Contact page content */
+			
+			/* Footer */
+		#footer_wrapper {
+			position: fixed;
+			width: 91.3%;
+			bottom: 0px;
+			height: 38px;
+			background-color: #000;
+			left: 4%;
+			
+		}	
+		#footer {
+		
+			padding: 0 20px;
+			margin: 0 auto;
+			line-height: 38px;
+			text-align: center;
+			color: #d7d4d4;
+		}
